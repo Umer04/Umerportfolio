@@ -101,7 +101,7 @@ const Home = () => {
       </a>
     </div>
         <div className="w-full md:w-1/2 px-4">
-        <div className="hexagon"> <img src="/pictures/umer1.png" alt="umer1"  width={350}/></div>
+        <div className="hexagon"> <img src="/Pictures/umer1.png" alt="umer1"  width={350}/></div>
         </div>
       </div>
     </div>

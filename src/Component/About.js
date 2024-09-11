@@ -32,7 +32,7 @@ const About = () => {
   return (
     <div className="bg-slate-800 pt-20 pb-4 " id="About">
       <div className="md:flex">
-        <div className="hidden md:block"> <img src="/pictures/umer2.png" alt="Umer" width={400} className=" lg:ml-16 "/></div>
+        <div className="hidden md:block"> <img src="/Pictures/umer2.png" alt="Umer" width={400} className=" lg:ml-16 "/></div>
         <div
       ref={sectionRef}
       className={`py-4 lg:py-16 px-12  w-full lg:w-1/2 ${isVisible ? 'animate-slideIn' : 'opacity-0'}`}
