@@ -110,54 +110,54 @@ const skills = [
 
 const portfolio = [
   {
-    image: '/pictures/Ampflick.png',
-    alt: 'ampflick',
+    image: '/Pictures/Ampflick.png',
+    alt: 'Ampflick',
     link: 'https://ampflick.com/',
     text: 'Ampflick',
     buttonText: 'Visit'
   },
   {
-    image: '/pictures/intelliWriter.jpg',
+    image: '/Pictures/intelliWriter.jpg',
     alt: 'IntelliWriter',
     link: 'https://intelliwriter.io/',
     text: 'IntelliWriter',
     buttonText: 'Visit'
   },
   {
-    image: '/pictures/Weather.jpg',
+    image: '/Pictures/Weather.jpg',
     alt: 'Weather App',
     link: 'https://github.com/Umer04',
     text: 'React Weather App',
     buttonText: 'Visit'
   },
   {
-    image: '/pictures/smart home.jpg',
+    image: '/Pictures/smart home.jpg',
     alt: 'Smart Home',
     link: 'https://github.com/Umer04',
     text: 'NextGenLiving',
     buttonText: 'Visit'
   },
   {
-    image: '/pictures/RMS.jpg',
+    image: '/Pictures/RMS.jpg',
     alt: 'DineGallery',
     link: 'https://myresturant.vercel.app/',
     text: 'DineGallery.',
     buttonText: 'Visit'
   },
 {
-    image: '/pictures/car game.jpg',
+    image: '/Pictures/car game.jpg',
     alt: 'car game',
     link: 'https://github.com/Umer04',
     text: 'Car Game ',
     buttonText: 'Visit'
   },{
-    image: '/pictures/my city.jpg',
+    image: '/Pictures/my city.jpg',
     alt: 'Smart City',
     link: 'https://github.com/Umer04',
     text: 'My City',
     buttonText: 'Visit'
   },{
-    image: '/pictures/SMS.jpg',
+    image: '/Pictures/SMS.jpg',
     alt: 'School',
     link: 'https://github.com/Umer04',
     text: 'Smart School',
