@@ -1,0 +1,157 @@
+/* App.css or any relevant CSS file */
+html {
+  scroll-behavior: smooth;
+}
+
+.app-background {
+ 
+  background-image: linear-gradient(to right,  rgb(24, 10, 39),rgb(9, 4, 64));
+ 
+}
+
+.box {
+ place-content: center;
+  color: white;
+  text-shadow: 0 1px 0 #000;
+ 
+  
+  --border-angle: 0turn; /* For animation */
+  --main-bg: conic-gradient(
+      from var(--border-angle),
+      rgb(3, 10, 37),
+      rgb(25, 25, 36) 5%,
+      rgb(2, 2, 35) 60%,
+      rgb(4, 7, 43) 95%
+    );
+
+  border: solid 1px transparent;
+  
+  --gradient-border: conic-gradient(from var(--border-angle), transparent 25%, rgb(4, 38, 69), rgb(0, 255, 255) 99%, transparent);
+
+  background: 
+    var(--main-bg) padding-box, /* For the main background */
+    var(--gradient-border) border-box, /* For the animated gradient border */
+    var(--main-bg) border-box; /* Fills behind the gradient border */
+
+  background-position: center;
+  animation: bg-spin 3s linear infinite;
+
+  /* Pause the animation on hover */
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+@media (min-width: 1024px) {
+.mybox {
+  place-content: center;
+   color: white;
+   text-shadow: 0 1px 0 #000;
+  
+   
+   --border-angle: 0turn; /* For animation */
+   --main-bg: conic-gradient(
+       from var(--border-angle),
+       rgb(3, 10, 37),
+       rgb(25, 25, 36) 5%,
+       rgb(2, 2, 35) 60%,
+       rgb(4, 7, 43) 95%
+     );
+ 
+   border: solid 1px transparent;
+   
+   --gradient-border: conic-gradient(from var(--border-angle), transparent 25%, rgb(4, 38, 69), rgb(0, 255, 255) 99%, transparent);
+ 
+   background: 
+     var(--main-bg) padding-box, /* For the main background */
+     var(--gradient-border) border-box, /* For the animated gradient border */
+     var(--main-bg) border-box; /* Fills behind the gradient border */
+ 
+   background-position: center;
+   animation: bg-spin 3s linear infinite;
+ 
+   /* Pause the animation on hover */
+   &:hover {
+     animation-play-state: paused;
+   }
+ }
+}
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
+}
+
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
+
+@keyframes slideFromTop {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slideFromTop {
+  animation: slideFromTop 0.3s ease-out forwards;
+}
+
+/* Home */
+.typing-text span {
+    display: inline-block;
+  }
+  
+  
+  @keyframes blink {
+    0%, 100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }
+  
+  .custom-turquoise-shadow {
+    box-shadow: 0 4px 6px -1px rgba(64, 224, 208, 0.5), 0 2px 4px -1px rgba(64, 224, 208, 0.06); 
+  }
+  
+  .custom-grey-shadow {
+    box-shadow: 0 4px 6px -1px rgba(94, 122, 120, 0.5), 0 2px 4px -1px rgba(64, 224, 208, 0.06); 
+  }
+  /* footer */
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+/* footer */
+  .animate-gradient {
+    background: linear-gradient(270deg, #191818,  #0f172a, #041531, #334155, #475569);
+    background-size: 400% 400%;
+    animation: gradientAnimation 5s ease infinite;
+  }
+
+
+ 
+  
+
+  
+  input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0 30px #364255 inset !important; /* Use your background color */
+      -webkit-text-fill-color: white !important; /* Ensures text color is white */
+      
+  }
