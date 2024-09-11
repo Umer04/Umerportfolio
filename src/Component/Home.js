@@ -94,7 +94,7 @@ const Home = () => {
           </a>
         ))}
       </div>
-      <a href="/UmerCV.pdf" download>
+      <a href="/Umer CV.pdf" download>
         <button className="bg-customTurquoise mt-6 py-1 px-4 rounded-xl custom-turquoise-shadow hover:opacity-50">
           Download CV
         </button>
