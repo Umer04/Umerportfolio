@@ -117,7 +117,7 @@ const portfolio = [
     buttonText: 'Visit'
   },
   {
-    image: '/Pictures/intelliWriter.jpg',
+    image: '/Pictures/IntelliWriter.jpg',
     alt: 'IntelliWriter',
     link: 'https://intelliwriter.io/',
     text: 'IntelliWriter',
