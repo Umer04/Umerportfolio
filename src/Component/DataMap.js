@@ -96,7 +96,7 @@ const skills = [
   },
   {
     icon: <SiMongodb />,
-    title: "MYSQL",
+    title: "MongoDB",
   },
   {
     icon: <BsFiletypeSql />,
