@@ -64,7 +64,7 @@ I’m a web developer skilled in Full Stack, WordPress, and SEO. I create respon
           {isOpen? "Read less":"Read more"}
           </button>
         </div>
-        <div className="md:hidden"> <img src="/pictures/umer2.png" alt="Umer" width={400} /></div>
+        <div className="md:hidden"> <img src="/Pictures/umer2.png" alt="Umer" width={400} /></div>
       </div>
     </div>
   );
